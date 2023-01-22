@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+    	62DB443324DEB800014A6237 /* MHVideoPlayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62DB443324DEB800014A6238 /* MHVideoPlayerView.xib */; };
+    	62DB443324DEB800014A6239 /* MHVideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DB443324DEB800014A623A /* MHVideoPlayerView.swift */; };
+    	62DB443324DEB800014A623C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DB443324DEB800014A623D /* HomeViewController.swift */; };
+    	62DB443324DEB800014A623E /* MembershipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DB443324DEB800014A623F /* MembershipViewController.swift */; };
+    	62DB443324DEB800014A6240 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DB443324DEB800014A6241 /* SettingsViewController.swift */; };
+    	62DB443324DEB800014A6242 /* PrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DB443324DEB800014A6243 /* PrivacyViewController.swift */; };
+    	62DB443324DEB800014A6244 /* PicturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DB443324DEB800014A6245 /* PicturesViewController.swift */; };
+    	62DB443324DEB800014A6246 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DB443324DEB800014A6247 /* ResultsViewController.swift */; };
+    	62DB443324DEB800014A6248 /* NextStepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DB443324DEB800014A6249 /* NextStepsViewController.swift */; };
+    	62DB443324DEB800014A624A /* ShareDiagnosisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DB443324DEB800014A624B /* ShareDiagnosisViewController.swift */; };
+    	62DB443324DEB800014A624D /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DB443324DEB800014A624E /* Colors.swift */; };
+    	62DB443324DEB800014A624F /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DB443324DEB800014A6250 /* Fonts.swift */; };
+    	62DB443324DEB800014A6252 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DB443324DEB800014A6253 /* UIView.swift */; };
+    	62DB443324DEB800014A6254 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DB443324DEB800014A6255 /* SearchBar.swift */; };
+    	62DB443324DEB800014A6256 /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DB443324DEB800014A6257 /* UINavigationController.swift */; };
+    	62DB443324DEB800014A6259 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DB443324DEB800014A625A /* MainCoordinator.swift */; };
+    	62DB443324DEB800014A625B /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DB443324DEB800014A625C /* Storyboarded.swift */; };
+    	62DB443324DEB800014A625D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62DB443324DEB800014A625E /* Assets.xcassets */; };
+    	62DB443324DEB800014A6260 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62DB443324DEB800014A6261 /* Main.storyboard */; };
+    	62DB443324DEB800014A6263 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62DB443324DEB800014A6264 /* LaunchScreen.storyboard */; };
+    	62DB443324DEB800014A6266 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62DB443324DEB800014A6267 /* Localizable.strings */; };
+    	62DB443324DEB800014A6269 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DB443324DEB800014A626A /* AppDelegate.swift */; };
+    	62DB443324DEB800014A626B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DB443324DEB800014A626C /* SceneDelegate.swift */; };
+    	62DB443324DEB800014A626D /* Info.plist in  */ = {isa = PBXBuildFile; fileRef = 62DB443324DEB800014A626E /* Info.plist */; };
+
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E2B074BD25CA9D9700274360 /* Oral Cancer Radar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Oral Cancer Radar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+        62DB443324DEB800014A6238 /* MHVideoPlayerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MHVideoPlayerView.xib; sourceTree = "<group>"; };
+        62DB443324DEB800014A623A /* MHVideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHVideoPlayerView.swift; sourceTree = "<group>"; };
+        62DB443324DEB800014A623D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+        62DB443324DEB800014A623F /* MembershipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembershipViewController.swift; sourceTree = "<group>"; };
+        62DB443324DEB800014A6241 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+        62DB443324DEB800014A6243 /* PrivacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyViewController.swift; sourceTree = "<group>"; };
+        62DB443324DEB800014A6245 /* PicturesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturesViewController.swift; sourceTree = "<group>"; };
+        62DB443324DEB800014A6247 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+        62DB443324DEB800014A6249 /* NextStepsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextStepsViewController.swift; sourceTree = "<group>"; };
+        62DB443324DEB800014A624B /* ShareDiagnosisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareDiagnosisViewController.swift; sourceTree = "<group>"; };
+        62DB443324DEB800014A624E /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+        62DB443324DEB800014A6250 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+        62DB443324DEB800014A6253 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+        62DB443324DEB800014A6255 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+        62DB443324DEB800014A6257 /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
+        62DB443324DEB800014A625A /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+        62DB443324DEB800014A625C /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+        62DB443324DEB800014A625E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+        62DB443324DEB800014A6262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+        62DB443324DEB800014A6265 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+        62DB443324DEB800014A6268 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+        62DB443324DEB800014A626A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+        62DB443324DEB800014A626C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+        62DB443324DEB800014A626E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2B074BA25CA9D9700274360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+            62DB443324DEB800014A6235 /* Components */ = {
+                isa = PBXGroup;
+                children = (
+                );
+                path = Components;
+                sourceTree = "<group>";
+            };
+            62DB443324DEB800014A6236 /* HeroComponents */ = {
+                isa = PBXGroup;
+                children = (
+                    62DB443324DEB800014A6238 /* MHVideoPlayerView.xib */,
+                    62DB443324DEB800014A623A /* MHVideoPlayerView.swift */,
+                );
+                path = HeroComponents;
+                sourceTree = "<group>";
+            };
+            62DB443324DEB800014A623B /* ViewControllers */ = {
+                isa = PBXGroup;
+                children = (
+                    62DB443324DEB800014A623D /* HomeViewController.swift */,
+                    62DB443324DEB800014A623F /* MembershipViewController.swift */,
+                    62DB443324DEB800014A6241 /* SettingsViewController.swift */,
+                    62DB443324DEB800014A6243 /* PrivacyViewController.swift */,
+                    62DB443324DEB800014A6245 /* PicturesViewController.swift */,
+                    62DB443324DEB800014A6247 /* ResultsViewController.swift */,
+                    62DB443324DEB800014A6249 /* NextStepsViewController.swift */,
+                    62DB443324DEB800014A624B /* ShareDiagnosisViewController.swift */,
+                );
+                path = ViewControllers;
+                sourceTree = "<group>";
+            };
+            62DB443324DEB800014A624C /* Styles */ = {
+                isa = PBXGroup;
+                children = (
+                    62DB443324DEB800014A624E /* Colors.swift */,
+                    62DB443324DEB800014A6250 /* Fonts.swift */,
+                );
+                path = Styles;
+                sourceTree = "<group>";
+            };
+            62DB443324DEB800014A6251 /* Extensions */ = {
+                isa = PBXGroup;
+                children = (
+                    62DB443324DEB800014A6253 /* UIView.swift */,
+                    62DB443324DEB800014A6255 /* SearchBar.swift */,
+                    62DB443324DEB800014A6257 /* UINavigationController.swift */,
+                );
+                path = Extensions;
+                sourceTree = "<group>";
+            };
+            62DB443324DEB800014A6258 /* Navigation */ = {
+                isa = PBXGroup;
+                children = (
+                    62DB443324DEB800014A625A /* MainCoordinator.swift */,
+                    62DB443324DEB800014A625C /* Storyboarded.swift */,
+                );
+                path = Navigation;
+                sourceTree = "<group>";
+            };
+            62DB443324DEB800014A6234 /* Oral Cancer Radar */ = {
+                isa = PBXGroup;
+                children = (
+                    62DB443324DEB800014A6235 /* Components */,
+                    62DB443324DEB800014A6236 /* HeroComponents */,
+                    62DB443324DEB800014A623B /* ViewControllers */,
+                    62DB443324DEB800014A624C /* Styles */,
+                    62DB443324DEB800014A6251 /* Extensions */,
+                    62DB443324DEB800014A6258 /* Navigation */,
+                    62DB443324DEB800014A625E /* Assets.xcassets */,
+                    62DB443324DEB800014A6261 /* Main.storyboard */,
+                    62DB443324DEB800014A6264 /* LaunchScreen.storyboard */,
+                    62DB443324DEB800014A6267 /* Localizable.strings */,
+                    62DB443324DEB800014A626A /* AppDelegate.swift */,
+                    62DB443324DEB800014A626C /* SceneDelegate.swift */,
+                    62DB443324DEB800014A626E /* Info.plist */,
+                );
+                path = "Oral Cancer Radar";
+                sourceTree = "<group>";
+            };
+		E2B074B425CA9D9700274360 = {
+			isa = PBXGroup;
+			children = (
+				62DB443324DEB800014A6234 /* Oral Cancer Radar */,
+				E2B074BE25CA9D9700274360 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2B074BE25CA9D9700274360 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2B074BD25CA9D9700274360 /* Oral Cancer Radar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2B074BC25CA9D9700274360 /* Oral Cancer Radar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2B074D125CA9D9B00274360 /* Build configuration list for PBXNativeTarget "Oral Cancer Radar" */;
+			buildPhases = (
+				E2B074B925CA9D9700274360 /* Sources */,
+				E2B074BA25CA9D9700274360 /* Frameworks */,
+				E2B074BB25CA9D9700274360 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Oral Cancer Radar";
+			productName = "Oral Cancer Radar";
+			productReference = E2B074BD25CA9D9700274360 /* Oral Cancer Radar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2B074B525CA9D9700274360 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					E2B074BC25CA9D9700274360 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = E2B074B825CA9D9700274360 /* Build configuration list for PBXProject "Oral Cancer Radar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2B074B425CA9D9700274360;
+			productRefGroup = E2B074BE25CA9D9700274360 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2B074BC25CA9D9700274360 /* Oral Cancer Radar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2B074BB25CA9D9700274360 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62DB443324DEB800014A6237 /* MHVideoPlayerView.xib in Resources */,
+				62DB443324DEB800014A625D /* Assets.xcassets in Resources */,
+				62DB443324DEB800014A6260 /* Main.storyboard in Resources */,
+				62DB443324DEB800014A6263 /* LaunchScreen.storyboard in Resources */,
+				62DB443324DEB800014A6266 /* Localizable.strings in Resources */,
+
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2B074B925CA9D9700274360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62DB443324DEB800014A6239 /* MHVideoPlayerView.swift in Sources */,
+				62DB443324DEB800014A623C /* HomeViewController.swift in Sources */,
+				62DB443324DEB800014A623E /* MembershipViewController.swift in Sources */,
+				62DB443324DEB800014A6240 /* SettingsViewController.swift in Sources */,
+				62DB443324DEB800014A6242 /* PrivacyViewController.swift in Sources */,
+				62DB443324DEB800014A6244 /* PicturesViewController.swift in Sources */,
+				62DB443324DEB800014A6246 /* ResultsViewController.swift in Sources */,
+				62DB443324DEB800014A6248 /* NextStepsViewController.swift in Sources */,
+				62DB443324DEB800014A624A /* ShareDiagnosisViewController.swift in Sources */,
+				62DB443324DEB800014A624D /* Colors.swift in Sources */,
+				62DB443324DEB800014A624F /* Fonts.swift in Sources */,
+				62DB443324DEB800014A6252 /* UIView.swift in Sources */,
+				62DB443324DEB800014A6254 /* SearchBar.swift in Sources */,
+				62DB443324DEB800014A6256 /* UINavigationController.swift in Sources */,
+				62DB443324DEB800014A6259 /* MainCoordinator.swift in Sources */,
+				62DB443324DEB800014A625B /* Storyboarded.swift in Sources */,
+				62DB443324DEB800014A6269 /* AppDelegate.swift in Sources */,
+				62DB443324DEB800014A626B /* SceneDelegate.swift in Sources */,
+
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+        62DB443324DEB800014A6261 /* Main.storyboard */ = {
+            isa = PBXVariantGroup;
+            children = (
+                 62DB443324DEB800014A6262 /* Base */,                    
+            );
+            name = Main.storyboard;
+            sourceTree = "<group>";
+        };
+        62DB443324DEB800014A6264 /* LaunchScreen.storyboard */ = {
+            isa = PBXVariantGroup;
+            children = (
+                 62DB443324DEB800014A6265 /* Base */,                    
+            );
+            name = LaunchScreen.storyboard;
+            sourceTree = "<group>";
+        };
+        62DB443324DEB800014A6267 /* Localizable.strings */ = {
+            isa = PBXVariantGroup;
+            children = (
+                 62DB443324DEB800014A6268 /* Base */,                    
+            );
+            name = Localizable.strings;
+            sourceTree = "<group>";
+        };
+
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2B074CF25CA9D9B00274360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2B074D025CA9D9B00274360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2B074D225CA9D9B00274360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWG9NL4TFC;
+				INFOPLIST_FILE = "Oral Cancer Radar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mondayhero.Oral-Cancer-Radar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2B074D325CA9D9B00274360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWG9NL4TFC;
+				INFOPLIST_FILE = "Oral Cancer Radar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mondayhero.Oral-Cancer-Radar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2B074B825CA9D9700274360 /* Build configuration list for PBXProject "Oral Cancer Radar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2B074CF25CA9D9B00274360 /* Debug */,
+				E2B074D025CA9D9B00274360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2B074D125CA9D9B00274360 /* Build configuration list for PBXNativeTarget "Oral Cancer Radar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2B074D225CA9D9B00274360 /* Debug */,
+				E2B074D325CA9D9B00274360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2B074B525CA9D9700274360 /* Project object */;
+}
